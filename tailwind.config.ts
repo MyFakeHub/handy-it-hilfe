@@ -13,8 +13,8 @@ export default {
       },
     },
     fontFamily: {
-      heading: ['Merriweather', 'serif'],
-      body: ['"Source Sans 3"', 'sans-serif'],
+      heading: ['Poppins', 'sans-serif'],
+      body: ['Poppins', 'sans-serif'],
     },
     extend: {
       colors: {
