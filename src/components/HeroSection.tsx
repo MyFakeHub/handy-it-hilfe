@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useGeolocation } from "@/hooks/useGeolocation";
 import heroImage from "@/assets/hero-image.jpg";
@@ -43,11 +43,17 @@ const HeroSection = () => {
             Wir kommen zu Ihnen nach Hause und helfen bei Computer, Internet, Handy und mehr. Einfach, geduldig und freundlich.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
             <Button variant="cta" size="xl" asChild>
               <a href="tel:+4915112345678">
                 <Phone className="w-6 h-6" />
                 Jetzt anrufen
+              </a>
+            </Button>
+            <Button variant="whatsapp" size="xl" asChild>
+              <a href="https://wa.me/4915112345678" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="w-6 h-6" />
+                WhatsApp schreiben
               </a>
             </Button>
             <Button variant="ctaOutline" size="xl" className="border-background/40 text-background hover:bg-background hover:text-foreground" asChild>
