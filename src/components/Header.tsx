@@ -64,4 +64,16 @@ const Header = () => {
               </button>
               <button
                 onClick={() => scrollToSection("ueber-uns")}
-                className="text-xl te
+                className="text-xl text-foreground hover:text-accent transition-colors font-medium text-left py-2"
+              >
+                Über uns
+              </button>
+              <Button variant="cta" size="lg" asChild className="mx-2">
+                <a href="tel:+4915112345678">
+                  <Phone className="w-5 h-5 mr-2" />
+                  0151 1234 5678
+                </a>
+              </Button>
+            </div>
+          </div>
+        )}
