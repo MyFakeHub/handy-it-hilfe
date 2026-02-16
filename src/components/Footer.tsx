@@ -10,7 +10,7 @@ const Footer = () => {
             <p className="text-background/70 mt-1">IT-Hilfe für Senioren – deutschlandweit</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 items-center">
-
+            <a
               href="tel:+4915112345678"
               className="flex items-center gap-2 text-background/80 hover:text-background transition-colors text-lg"
             >
@@ -18,6 +18,7 @@ const Footer = () => {
               0151 1234 5678
             </a>
 
+            <a
               href="mailto:hilfe@oma-opa-online.de"
               className="flex items-center gap-2 text-background/80 hover:text-background transition-colors text-lg"
             >
