@@ -55,25 +55,31 @@ const Header = () => {
 
         {mobileMenuOpen && (
           <div className="md:hidden pb-6 pt-2">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 px-2">
               <button
                 onClick={() => scrollToSection("leistungen")}
-                className="text-xl text-foreground hover:text-accent transition-colors font-medium text-left py-2"
+                className="text-xl text-foreground hover:text-accent transition-colors font-medium text-left py-3"
               >
                 Leistungen
               </button>
               <button
                 onClick={() => scrollToSection("ueber-uns")}
-                className="text-xl text-foreground hover:text-accent transition-colors font-medium text-left py-2"
+                className="text-xl text-foreground hover:text-accent transition-colors font-medium text-left py-3"
               >
                 Über uns
               </button>
-              <Button variant="cta" size="lg" asChild className="mx-2">
+              <Button variant="cta" size="lg" className="w-full" asChild>
                 <a href="tel:+4915112345678">
                   <Phone className="w-5 h-5 mr-2" />
-                  0151 1234 5678
+                  0151 1234 5678 anrufen
                 </a>
               </Button>
             </div>
           </div>
         )}
+      </nav>
+    </header>
+  );
+};
+
+export default Header;
