@@ -13,7 +13,7 @@ const HeroSection = () => {
     : "Wir sind für Sie da – überall in Deutschland";
 
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+    <section className="relative overflow-hidden bg-gradient-to-b from-accent to-accent-hover min-h-[90vh] flex items-center" aria-label="Hauptbereich">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
