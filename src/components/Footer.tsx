@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
-            <h3 className="text-xl font-bold font-heading text-background">Oma-Opa Online</h3>  {/* ← UPDATED */}
-            <p className="text-background/70 mt-1">IT-Hilfe für Senioren – deutschlandweit</p>  {/* ← UPDATED */}
+            <h3 className="text-xl font-bold font-heading text-background">Oma-Opa Online</h3>
+            <p className="text-background/70 mt-1">IT-Hilfe für Senioren – deutschlandweit</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 items-center">
 
@@ -18,11 +18,11 @@ const Footer = () => {
               0151 1234 5678
             </a>
 
-              href="mailto:hilfe@oma-opa-online.de"  {/* ← UPDATED EMAIL */}
+              href="mailto:hilfe@oma-opa-online.de"
               className="flex items-center gap-2 text-background/80 hover:text-background transition-colors text-lg"
             >
               <Mail className="w-5 h-5" />
-              hilfe@oma-opa-online.de  {/* ← UPDATED EMAIL */}
+              hilfe@oma-opa-online.de
             </a>
           </div>
         </div>
@@ -37,7 +37,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-background/50 text-sm">
-            © {new Date().getFullYear()} Oma-Opa Online. Alle Rechte vorbehalten.  {/* ← UPDATED */}
+            © {new Date().getFullYear()} Oma-Opa Online. Alle Rechte vorbehalten.
           </p>
         </div>
       </div>
