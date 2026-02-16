@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="IT-Hilfe für Senioren"
+          alt="Freundlicher IT-Helfer unterstützt Oma und Opa bei Computer-Problemen zu Hause"
           className="w-full h-full object-cover"
           loading="eager"
         />
@@ -35,8 +35,8 @@ const HeroSection = () => {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black font-heading text-background mb-6 leading-tight">
-            Technik-Hilfe <br />
-            <span className="text-accent">für Senioren</span>
+            IT-Hilfe für <br />
+            <span className="text-accent">Oma & Opa</span>
           </h1>
 
           <p className="text-xl text-background/85 mb-10 max-w-lg leading-relaxed">
@@ -57,7 +57,7 @@ const HeroSection = () => {
               </a>
             </Button>
             <Button variant="ctaOutline" size="xl" className="border-background/40 text-background hover:bg-background hover:text-foreground" asChild>
-              <a href="mailto:hilfe@seniorentech.de">
+              <a href="mailto:hilfe@oma-opa-online.de">  {/* ← UPDATED EMAIL */}
                 <Mail className="w-6 h-6" />
                 E-Mail schreiben
               </a>
